@@ -1,8 +1,8 @@
 # JetBrains
 
 **/.idea/
-**/*.iws
-**/*.iml
+*.iws
+*.iml
 **/out/
 **/.idea_modules/
 **/atlassian-ide-plugin.xml
@@ -13,15 +13,15 @@
 
 # CMake
 
-cmake-build-*/
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
+**/cmake-build-*/
+**/CMakeCache.txt
+**/CMakeFiles
+**/CMakeScripts
+**/Testing
+**/cmake_install.cmake
+**/install_manifest.txt
+**/compile_commands.json
+**/CTestTestfile.cmake
 
 # Windows
 
