@@ -1,5 +1,16 @@
 # roguelike-game (WIP)
 
+## Table of contents
+
+* [Description](#description)
+* [Technology stack](#technology-stack)
+* [Required dependencies](#required-dependencies)
+* [Code style](#code-style)
+* [Launch game](#launch-game)
+* [Additional commands](#additional-commands)
+
+## Description
+
 This game was starting to be created just for lulz and studying at development courses :)
 
 ## Technology stack
