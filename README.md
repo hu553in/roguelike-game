@@ -1,6 +1,6 @@
 # roguelike-game (WIP)
 
-This game was created just for lulz and studying at development courses :)
+This game was starting to be created just for lulz and studying at development courses :)
 
 ## Technology stack
 
