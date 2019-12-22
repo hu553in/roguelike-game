@@ -1,10 +1,10 @@
 # JetBrains
 
-**/.idea/
+**/.idea
 *.iws
 *.iml
-**/out/
-**/.idea_modules/
+**/out
+**/.idea_modules
 **/atlassian-ide-plugin.xml
 **/com_crashlytics_export_strings.xml
 **/crashlytics.properties
@@ -13,7 +13,7 @@
 
 # CMake
 
-**/cmake-build-*/
+**/cmake-build-*
 **/CMakeCache.txt
 **/CMakeFiles
 **/CMakeScripts
@@ -30,7 +30,7 @@
 **/ehthumbs_vista.db
 *.stackdump
 **/[Dd]esktop.ini
-**/$RECYCLE.BIN/
+**/$RECYCLE.BIN
 *.cab
 *.msi
 *.msix
