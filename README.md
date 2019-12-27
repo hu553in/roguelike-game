@@ -42,4 +42,5 @@ After installing dependencies, just run `make` in the project root folder.
 * Remove `cmake-build-debug` folder: `make clean`
 * Reset leaderboard file: `make reset_leaderboard`
 * Run project with only modified files rebuilding and without linting: `make run`
-* Also you can find more commands in `Makefile`. Enjoy! ;)
+
+Also you can find more commands in `Makefile`. Enjoy! ;)
