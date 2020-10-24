@@ -1,4 +1,4 @@
-# roguelike-game (WIP)
+# roguelike-game
 
 ## Table of contents
 
@@ -11,7 +11,8 @@
 
 ## Description
 
-This game was starting to be created just for lulz and studying at development courses :)
+This game was starting to be created just for lulz and studying at development courses :)\
+It's a WIP at the moment so it doesn't work.
 
 ## Technology stack
 
