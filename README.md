@@ -3,7 +3,7 @@
 ## Table of contents
 
 * [Description](#description)
-* [Technology stack](#technology-stack)
+* [Tech stack](#tech-stack)
 * [Required dependencies](#required-dependencies)
 * [Code style](#code-style)
 * [Launch game](#launch-game)
@@ -11,37 +11,47 @@
 
 ## Description
 
-This game was starting to be created just for lulz and studying at development courses :)\
-It's a WIP at the moment so it doesn't work.
+This project is the terminal-based roguelike-like game.
 
-## Technology stack
+The main purposes of creating this game are:
+* making lulz xd
+* improving programming skills
 
-* Linux
+It's WIP so it does not work at the moment, but don't worry!
+
+## Tech stack
+
 * C++
-* NCurses library
-* Some other utils described below
-
-## Required dependencies
-
-* [NCurses](https://www.gnu.org/software/ncurses)
-* [CMake](https://cmake.org)
-* [Make](https://www.gnu.org/software/make)
-* [GCC](https://gcc.gnu.org)
-* [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html)
-* [Python](https://www.python.org)
+* ncurses
 
 ## Code style
 
-This project _partially_ uses [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html) and [cpplint](https://google.github.io/styleguide/cppguide.html#cpplint).
+This project _partially_ uses
+[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+with [cpplint](https://google.github.io/styleguide/cppguide.html#cpplint).
+
+## Required dependencies
+
+* NCurses
+* CMake
+* GNU Make
+* GCC
+* ClangFormat (for the formatting)
+* Python 2 (for the linting)
 
 ## Launch game
 
-After installing dependencies, just run `make` in the project root folder.
+**Note:** in case if you don't want to install ClangFormat and/or Python 2,
+you should edit `./Makefile` and `./CMakeLists.txt` so that they don't use
+these tools.
+
+1) Install dependencies
+2) Run `make`
 
 ## Additional commands
 
-* Remove `cmake-build-debug` folder: `make clean`
-* Reset leaderboard file: `make reset_leaderboard`
-* Run project with only modified files rebuilding and without linting: `make run`
+* Remove the `cmake-build-debug` folder: `make clean`
+* Reset the leaderboard file: `make reset_leaderboard`
+* Run the project with rebuilding only modified files and without linting: `make run`
 
 Also you can find more commands in `Makefile`. Enjoy! ;)
