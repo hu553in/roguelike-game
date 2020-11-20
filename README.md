@@ -4,8 +4,8 @@
 
 * [Description](#description)
 * [Tech stack](#tech-stack)
-* [Required dependencies](#required-dependencies)
 * [Code style](#code-style)
+* [Required dependencies](#required-dependencies)
 * [Launch game](#launch-game)
 * [Additional commands](#additional-commands)
 
@@ -39,7 +39,7 @@ with [cpplint](https://google.github.io/styleguide/cppguide.html#cpplint).
 * ClangFormat (for the formatting)
 * Python 2 (for the linting)
 
-## Launch game
+## How to run
 
 **Note:** in case if you don't want to install ClangFormat and/or Python 2,
 you should edit `./Makefile` and `./CMakeLists.txt` so that they don't use
@@ -48,7 +48,7 @@ these tools.
 1) Install dependencies
 2) Run `make`
 
-## Additional commands
+## Additional `GNU Make` rules
 
 * Remove the `cmake-build-debug` folder: `make clean`
 * Reset the leaderboard file: `make reset_leaderboard`
