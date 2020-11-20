@@ -54,4 +54,4 @@ these tools.
 * Reset the leaderboard file: `make reset_leaderboard`
 * Run the project with rebuilding only modified files and without linting: `make run`
 
-Also you can find more commands in `Makefile`. Enjoy! ;)
+Also you can find more rules in `Makefile`. Enjoy! ;)
