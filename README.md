@@ -45,8 +45,8 @@ with [cpplint](https://google.github.io/styleguide/cppguide.html#cpplint).
 you should edit `./Makefile` and `./CMakeLists.txt` so that they don't use
 these tools.
 
-1) Install dependencies
-2) Run `make`
+1. Install dependencies
+2. Run `make`
 
 ## Additional `GNU Make` rules
 
