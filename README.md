@@ -21,7 +21,7 @@ It's WIP so it does not work at the moment, but don't worry!
 
 ## Tech stack
 
-* C++
+* C++17
 * ncurses
 
 ## Code style
