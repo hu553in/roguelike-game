@@ -11,6 +11,10 @@
 **/crashlytics-build.properties
 **/fabric.properties
 
+# Visual Studio Code
+
+**/.vscode
+
 # CMake
 
 **/cmake-build-*
@@ -45,3 +49,7 @@
 **/.directory
 **/.Trash-*
 **/.nfs*
+
+# Misc
+
+**/vgcore.*
